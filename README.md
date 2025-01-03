@@ -21,7 +21,7 @@ docker pull nvcr.io/nvidia/merlin/merlin-pytorch:23.12
 Run the container:
 
 ```bash
-docker run --gpus all -it --rm -p 8888:8888 -v $(pwd):/workspace
+docker run --gpus all -it --rm -p 8888:8888 -v $(pwd):/workspace nvcr.io/nvidia/merlin/merlin-pytorch:23.12 
 ```
 
 
@@ -52,7 +52,7 @@ Access the notebook in your browser at `http://localhost:8888`.
 ### 1. Install ([Kaggle OTTO dataset](https://www.kaggle.com/competitions/otto-recommender-system)) and extract to data/lb folder
 
 > [!NOTE]
-> To be able to run the pipeline using local validation, use the ([host script][https://github.com/otto-de/recsys-dataset]) to split the last week from train.jsonl
+> To be able to run the pipeline using local validation, use the ([host script][https://github.com/otto-de/recsys-dataset]) to split the last week from train.jsonl)
 > and extract to data/cv folder
 
 ### 2. Run notebook according to pipeline preprocess -> word2vec/t4r/covisit -> xgboost
