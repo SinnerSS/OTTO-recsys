@@ -7,7 +7,6 @@ argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.3.0
 asttokens==2.4.1
-asvdb @ git+https://github.com/rapidsai/asvdb.git@fd1616a47f9b37bdce4c9c61a5bdd9310daccb72
 async-lru==2.0.4
 async-timeout==4.0.3
 attrs==23.2.0
@@ -31,14 +30,9 @@ coloredlogs==15.0.1
 comm==0.2.1
 contourpy==1.2.0
 cryptography==3.4.8
-cubinlinker @ file:///rapids/lib/cubinlinker-0.2.2%2B2.g2f92cb3-cp310-cp310-linux_x86_64.whl#sha256=e6e65dbf8c56ea1dbd431c65e7dea03cca99768f937803e96d2b2d0727cc946f
 cuda-python==11.8.3
-cudf @ file:///rapids/lib/cudf-23.4.0-cp310-cp310-linux_x86_64.whl#sha256=7a6cb0a328b14d98b236b8790eb71d6d4cbb1ff43858ca85b9c9a51c869d0ac0
-cupy-cuda12x @ file:///rapids/lib/cupy_cuda12x-12.0.0b3-cp310-cp310-linux_x86_64.whl#sha256=57beb23585203a68a5f3689d23f17a13f80f1f92504eb2d8d0171b079719ae8c
 cycler==0.12.1
 dask==2023.1.1
-dask-cuda @ file:///rapids/lib/dask_cuda-23.4.0-py3-none-any.whl#sha256=cfb5165ead1b87342523882d7b655fe0e4bd1045f954cf13c47faf0527164cdd
-dask-cudf @ file:///rapids/lib/dask_cudf-23.4.0-py3-none-any.whl#sha256=ceb58190cfe0db4e496087d75b4b3f74630b1a5319fbde5213445758d34699eb
 dbus-python==1.2.18
 debugpy==1.8.0
 decorator==5.1.1
@@ -166,10 +160,8 @@ prometheus-client==0.19.0
 prompt-toolkit==3.0.43
 protobuf==3.20.3
 psutil==5.9.7
--e git+https://github.com/rapidsai/ptxcompiler.git@ae91f8dad5e5ff7103128eaf1a77b923887334ec#egg=ptxcompiler
 ptyprocess==0.7.0
 pure-eval==0.2.2
-pyarrow @ file:///rapids/lib/pyarrow-10.0.1.dev0%2Bga6eabc2b.d20230428-cp310-cp310-linux_x86_64.whl#sha256=cf502f1bab8744c71217fd609b4ac969218ab97a5d7efabd883c19d6b568e651
 pyarrow-hotfix==0.6
 pybind11==2.11.1
 pycparser==2.21
@@ -196,7 +188,6 @@ regex==2023.12.25
 requests==2.31.0
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
-rmm @ file:///rapids/lib/rmm-23.4.0-cp310-cp310-linux_x86_64.whl#sha256=5cee5d09575d347b2b3b13a7812a2950f1eac8033c3a22e541dea7a1ba44c700
 rpds-py==0.17.1
 s3transfer==0.10.0
 scikit-build==0.17.6
